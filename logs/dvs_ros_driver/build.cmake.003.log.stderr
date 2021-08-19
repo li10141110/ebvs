@@ -1,0 +1,17 @@
+[31m[1mCMake Error[0m at /home/jing/catkin_ws/src/rpg_dvs_ros/dvs_ros_driver/CMakeLists.txt:5 (find_package):
+  By not providing "Findlibcaer.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "libcaer", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "libcaer" with any
+  of the following names:
+
+    libcaerConfig.cmake
+    libcaer-config.cmake
+
+  Add the installation prefix of "libcaer" to CMAKE_PREFIX_PATH or set
+  "libcaer_DIR" to a directory containing one of the above files.  If
+  "libcaer" provides a separate development package or SDK, be sure it has
+  been installed.
+
+

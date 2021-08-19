@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/src/ESVO" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/ESVO.bak0817" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/catkin_simple" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/catkin_simple/test/scenarios/hello_world/catkin_simple" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/eigen_catkin" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/eigen_checks" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/gflags_catkin" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/glog_catkin" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/minkindr" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/minkindr_ros" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/rpg_dvs_ros" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/yaml-cpp" vcs="Git" />
+  </component>
+</project>

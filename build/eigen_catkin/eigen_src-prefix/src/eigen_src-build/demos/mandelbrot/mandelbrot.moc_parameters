@@ -1,0 +1,7 @@
+-I/home/jing/catkin_ws/build/eigen_catkin/eigen_src-prefix/src/eigen_src
+-I/home/jing/catkin_ws/build/eigen_catkin/eigen_src-prefix/src/eigen_src-build
+-I/usr/include/qt4
+-DNDEBUG
+-o
+/home/jing/catkin_ws/build/eigen_catkin/eigen_src-prefix/src/eigen_src-build/demos/mandelbrot/mandelbrot.moc
+/home/jing/catkin_ws/build/eigen_catkin/eigen_src-prefix/src/eigen_src/demos/mandelbrot/mandelbrot.h

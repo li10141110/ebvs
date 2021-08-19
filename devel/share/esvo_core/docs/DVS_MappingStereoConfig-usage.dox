@@ -1,0 +1,32 @@
+\subsubsection usage Usage
+\verbatim
+<node name="esvo_core" pkg="esvo_core" type="esvo_core">
+  <param name="EM_TIME_THRESHOLD" type="double" value="0.0001" />
+  <param name="EM_EPIPOLAR_THRESHOLD" type="double" value="0.5" />
+  <param name="EM_TS_NCC_THRESHOLD" type="double" value="0.1" />
+  <param name="EM_NUM_EVENT_MATCHING" type="int" value="30000" />
+  <param name="EM_PATCH_INTENSITY_THRESHOLD" type="int" value="125" />
+  <param name="EM_PATCH_VALID_RATIO" type="double" value="0.1" />
+  <param name="BM_MAX_NUM_EVENTS_PER_MATCHING" type="int" value="400" />
+  <param name="BM_min_disparity" type="int" value="0" />
+  <param name="BM_max_disparity" type="int" value="40" />
+  <param name="BM_step" type="int" value="2" />
+  <param name="BM_ZNCC_Threshold" type="double" value="0.1" />
+  <param name="invDepth_min_range" type="double" value="0.16" />
+  <param name="invDepth_max_range" type="double" value="2.0" />
+  <param name="residual_vis_threshold" type="double" value="12.0" />
+  <param name="stdVar_vis_threshold" type="double" value="0.12" />
+  <param name="age_max_range" type="int" value="5" />
+  <param name="age_vis_threshold" type="int" value="1" />
+  <param name="fusion_radius" type="int" value="0" />
+  <param name="maxNumFusionFrames" type="int" value="0" />
+  <param name="maxNumFusionPoints" type="int" value="5000" />
+  <param name="PROCESS_EVENT_NUM" type="int" value="100" />
+  <param name="TS_HISTORY_LENGTH" type="int" value="100" />
+  <param name="mapping_rate_hz" type="int" value="20" />
+  <param name="Denoising" type="bool" value="False" />
+  <param name="Regularization" type="bool" value="False" />
+  <param name="ResetButton" type="bool" value="False" />
+</node>
+\endverbatim
+

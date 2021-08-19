@@ -1,0 +1,1 @@
+cmd='/opt/cmake-3.10.0-Linux-x86_64/bin/cmake;-DCMAKE_INSTALL_PREFIX:PATH=/home/jing/catkin_ws/devel;-DCMAKE_BUILD_TYPE:STRING=Release;-DBUILD_TESTING=OFF;-GUnix Makefiles;<SOURCE_DIR><SOURCE_SUBDIR>'

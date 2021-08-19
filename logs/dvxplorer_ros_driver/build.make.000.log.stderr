@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/home/jing/catkin_ws/src/rpg_dvs_ros/dvxplorer_ros_driver/cfg/DVXplorer_ROS_Driver.cfg", line 4, in <module>
+    from dynamic_reconfigure.parameter_generator_catkin import *
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/dynamic_reconfigure/__init__.py", line 38, in <module>
+    import roslib
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/roslib/__init__.py", line 50, in <module>
+    from roslib.launcher import load_manifest
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/roslib/launcher.py", line 42, in <module>
+    import rospkg
+ImportError: No module named 'rospkg'
+make[2]: *** [/home/jing/catkin_ws/devel/include/dvxplorer_ros_driver/DVXplorer_ROS_DriverConfig.h] Error 1
+make[1]: *** [CMakeFiles/dvxplorer_ros_driver_gencfg.dir/all] Error 2
+make: *** [all] Error 2

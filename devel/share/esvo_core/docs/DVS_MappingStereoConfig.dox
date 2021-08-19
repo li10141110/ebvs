@@ -1,0 +1,31 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~EM_TIME_THRESHOLD" : \b [double] EM_TIME_THRESHOLD min: 1e-06, default: 0.0001, max: 0.001
+- \b "~EM_EPIPOLAR_THRESHOLD" : \b [double] EM_EPIPOLAR_THRESHOLD min: 0.1, default: 0.5, max: 5.0
+- \b "~EM_TS_NCC_THRESHOLD" : \b [double] EM_TS_NCC_THRESHOLD min: 0.0, default: 0.1, max: 1.0
+- \b "~EM_NUM_EVENT_MATCHING" : \b [int] EM_NUM_EVENT_MATCHING min: 0, default: 30000, max: 100000
+- \b "~EM_PATCH_INTENSITY_THRESHOLD" : \b [int] EM_PATCH_INTENSITY_THRESHOLD min: 0, default: 125, max: 255
+- \b "~EM_PATCH_VALID_RATIO" : \b [double] EM_PATCH_VALID_RATIO min: 0.0, default: 0.1, max: 1.0
+- \b "~BM_MAX_NUM_EVENTS_PER_MATCHING" : \b [int] BM_MAX_NUM_EVENTS_PER_MATCHING min: 1, default: 400, max: 50000
+- \b "~BM_min_disparity" : \b [int] BM_min_disparity min: 0, default: 0, max: 5
+- \b "~BM_max_disparity" : \b [int] BM_max_disparity min: 0, default: 40, max: 150
+- \b "~BM_step" : \b [int] BM_step min: 1, default: 2, max: 5
+- \b "~BM_ZNCC_Threshold" : \b [double] BM_ZNCC_Threshold min: 0.0, default: 0.1, max: 1.0
+- \b "~invDepth_min_range" : \b [double] InvDepth_MIN_RANGE min: 0.0, default: 0.16, max: 10.0
+- \b "~invDepth_max_range" : \b [double] InvDepth_MAX_RANGE min: 0.0, default: 2.0, max: 10.0
+- \b "~residual_vis_threshold" : \b [double] Residual_VIS_THRESHOLD min: 0.0, default: 12.0, max: 1000000.0
+- \b "~stdVar_vis_threshold" : \b [double] StdVariance_VIS_THRESHOLD min: 0.0, default: 0.12, max: 10000000.0
+- \b "~age_max_range" : \b [int] Age_MAX_RANGE min: 0, default: 5, max: 10
+- \b "~age_vis_threshold" : \b [int] Age_VIS_RANGE min: 0, default: 1, max: 10
+- \b "~fusion_radius" : \b [int] fusion radius min: 0, default: 0, max: 5
+- \b "~maxNumFusionFrames" : \b [int] Max Fusion Times min: 0, default: 0, max: 100
+- \b "~maxNumFusionPoints" : \b [int] Max Fusion Points min: 1000, default: 5000, max: 20000
+- \b "~PROCESS_EVENT_NUM" : \b [int] #processed event min: 0, default: 100, max: 100000
+- \b "~TS_HISTORY_LENGTH" : \b [int] time_surface history length min: 0, default: 100, max: 300
+- \b "~mapping_rate_hz" : \b [int] mapping rate min: 1, default: 20, max: 30
+- \b "~Denoising" : \b [bool] denoising the events min: False, default: False, max: True
+- \b "~Regularization" : \b [bool] perform regularization min: False, default: False, max: True
+- \b "~ResetButton" : \b [bool] reset system (used as a button...) min: False, default: False, max: True
+
